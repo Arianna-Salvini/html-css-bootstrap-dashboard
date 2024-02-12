@@ -43,6 +43,14 @@
 .debug.banner{
     height: 300px;
 }
+
+.debug.main_site_content .col-12{
+height: 100vh;
+}
+
+.debug.card{
+    height: 50%;
+}
 /* Header */
 
 .navigation_bar{
