@@ -52,13 +52,6 @@ height: 100vh;
     height: 50%;
 }
 /* Header */
-
-.navigation_bar{
-    height: 4.3rem;
-}
-
-
-
 .side_navbar{
     background-color: var(--boodash-darker);
     color: var(--boodash-lighter);
@@ -67,4 +60,17 @@ height: 100vh;
 .banner{
     background-color: var(--boodash-primary);
 }
+
+.navbar-brand>img{
+    width: 100%;
+}
+
+.navigation_bar form{
+    flex-grow: 1;
+    & > input{
+        background-color: var(--boodash-searchbar);
+    }
+}
+
+
 
