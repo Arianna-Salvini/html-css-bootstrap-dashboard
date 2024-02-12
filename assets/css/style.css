@@ -29,8 +29,34 @@
 .debug{
     border: 1px dashed;
 }
+
+.debug.side_navbar{
+    min-width: none;
+    height: 100vh;
+}
+
+.debug.main_site_content{
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.debug.banner{
+    height: 300px;
+}
 /* Header */
 
 .navigation_bar{
     height: 4.3rem;
 }
+
+
+
+.side_navbar{
+    background-color: var(--boodash-darker);
+    color: var(--boodash-lighter);
+}
+
+.banner{
+    background-color: var(--boodash-primary);
+}
+
