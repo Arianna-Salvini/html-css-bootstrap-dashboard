@@ -53,6 +53,13 @@ body {
     .side_navbar_option {
         display: inline;
     }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+}
+
 }
 
 /* debug */
