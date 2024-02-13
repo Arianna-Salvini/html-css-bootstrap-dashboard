@@ -123,7 +123,7 @@
                 <!-- /banner -->
 
                 <!-- offcanvas -->
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasLabel">Inserisci nuovi studenti</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
@@ -172,8 +172,7 @@
                             <!-- Upload photos -->
                             <div class="col-12 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Seleziona per
-                                    proseguire</label>
+                                <label class="form-check-label" for="exampleCheck1">Seleziona perproseguire</label>
                             </div>
                             <button type="submit" class="btn btn-primary">Salva</button>
                             <button type="reset" class="btn btn-warning">Svuota</button>
@@ -182,11 +181,11 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-8 debug">
-                    <div class="card classes bg_general">
+                <div class="col-12 col-lg-8">
+                    <div class="card classes ">
                         <div class="card-body">
                             <h5 class="card-title">Prossime Classi</h5>
-                            <table class="table table-hover table_style">
+                            <table class="table table-hover table_style bg_lighter">
                                 <thead>
                                     <tr>
                                         <th scope="col">Nome</th>
@@ -310,12 +309,63 @@
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+                    </div>
+                    <div class="card p-3">
+                        <h5 class="card-title">Prossime Classi</h5>
+                        <div class="card-body">
+                            <div class="accordion" id="faq">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq_question">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Come aggiungere un nuovo studente
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="faq_question" data-bs-parent="#faq">
+                                        <div class="accordion-body">
+                                            Clicca sul + in alto nella sezione blu
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="faq_question">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse2" aria-expanded="true"
+                                            aria-controls="collaps2">
+                                            Come posso accedere alle informazioni del mio acount?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse2" class="accordion-collapse collapse"
+                                        aria-labelledby="faq_question" data-bs-parent="#faq">
+                                        <div class="accordion-body">
+                                            Clicca sulla campanella
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item bg_general">
+                                    <h2 class="accordion-header" id="faq_question">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse3" aria-expanded="true"
+                                            aria-controls="collapse3">
+                                            Posso usare questa dashboard da mobile?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse3" class="accordion-collapse collapse"
+                                        aria-labelledby="faq_question" data-bs-parent="#faq">
+                                        <div class="accordion-body">
+                                            In teoria sì
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
 
                         </div>
-
                     </div>
                 </div>
-                <div class="card bg_general faq debug"></div>
             </div>
             <div class="col-12 col-lg-4 debug">
                 <div class="card todo bg_general"></div>

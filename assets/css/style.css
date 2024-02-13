@@ -140,7 +140,7 @@ main.debug {
 
 main {
     width: calc(100% - 70px);
-    height: calc(100% - 70)
+    /* height: calc(100% - 70) */
 }
 
 #wrapper {
@@ -178,3 +178,5 @@ main {
 a.badge {
     border: 1px solid var(--boodash-dark);
 }
+
+/* card 2 */
