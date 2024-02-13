@@ -4,6 +4,7 @@
     --boodash-lighter: #ffffff;
     --boodash-searchbar: #e5e5e5;
     --boodash-dark: #5b5858;
+    --boodash-dark-50: #d3d3d381;
     --boodash-darker: #142a40;
     --boodash-darkest: #2c3034;
     --boodash-primary: #1b72e8;
@@ -141,6 +142,10 @@ main {
         color: var(--boodash-lighter);
     }
 
+}
+
+#nav_bg:hover{
+    background-color: var(--boodash-dark-50);
 }
 
 /* banner */
