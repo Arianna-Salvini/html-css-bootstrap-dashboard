@@ -112,12 +112,39 @@
     </header>
     <!-- /#header -->
     <main class="bg_general" id="main">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="row">
                 <div class="col-2 p-0">
-                    <div class="side_navbar debug">
-                        sidebar
+                    <div class="side_navbar d-flex flex-column">
+                    <div class="side_navbar_top d-flex flex-column flex-shrink-0 p-3">
+                        <ul class="nav nav-pills flex-column mb-auto color_light">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <i class="fa-solid fa-house"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                    Stat
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <i class="fa-solid fa-signal"></i>
+                                    Signal
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="sidenav_bottom p-4">
+                        <a class="nav-link" aria-current="page" href="#">
+                            <i class="fa-solid fa-gear"></i>
+                           Admin
+                        </a>
+                    </div>
+                </div>
                     <!-- /.sidebar -->
                 </div>
                 <div class="col-10 p-0">

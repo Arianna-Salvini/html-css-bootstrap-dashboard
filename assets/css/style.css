@@ -26,6 +26,10 @@
     background-color: var(--boodash-searchbar);
 }
 
+.bg_darker{
+    background-color: var(--boodash-darker);
+}
+
 .color_dark{
     color: var(--boodash-dark);
 }
@@ -75,8 +79,16 @@ height: 100vh;
 
 
 .side_navbar{
+    height: 100%;
+    background-image: url(../img/sidebar-bg.png);
     background-color: var(--boodash-darker);
-    color: var(--boodash-lighter);
+    justify-content: space-between;
+    
+
+    & a {
+        color: var(--boodash-lighter);
+    }
+
 }
 
 .banner{
