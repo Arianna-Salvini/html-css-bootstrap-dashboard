@@ -50,29 +50,6 @@ body {
     display: none;
 }
 
-
-/* Media query */
-
-@media screen and (min-width: 992px) {
-
-    .side_navbar_option {
-        display: inline;
-    }
-
-    .navbar-expand-lg .navbar-collapse {
-        display: flex !important;
-        flex-basis: auto;
-        justify-content: flex-end;
-    }
-
-    #wrapper {
-        .side_bar_lg {
-            width: 150px;
-        }
-    }
-
-}
-
 /* debug */
 .debug {
     border: 1px dashed;
@@ -155,6 +132,9 @@ main {
     background-color: var(--boodash-primary);
 }
 
+#offcanvas{
+    width: 100%;
+}
 /* Card 1 */
 .badge {
     .fa-solid {
@@ -171,4 +151,28 @@ a.badge {
 .card_text {
     font-size: 0.8rem;
     padding-bottom: 2rem;
+}
+
+/* Media query */
+
+@media screen and (min-width: 992px) {
+
+    .side_navbar_option {
+        display: inline;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+
+    #wrapper {
+        .side_bar_lg {
+            width: 150px;
+        }
+    }
+    #offcanvas{
+        width: 50%;
+    }
 }
