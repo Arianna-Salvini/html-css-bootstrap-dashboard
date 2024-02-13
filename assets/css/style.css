@@ -34,6 +34,17 @@
     color: var(--boodash-dark);
 }
 
+.hidden{
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+ 
+    .side_navbar_option{
+        display: inline;
+    }
+}
+
 /* debug */
 .debug{
     border: 1px dashed;
