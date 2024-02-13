@@ -50,9 +50,12 @@ body {
     display: none;
 }
 
-/* debug */
-.debug {
-    border: 1px dashed;
+.w_35{
+    width: 35%;
+}
+
+.w_15{
+    width: 15%;
 }
 
 /* Header */
@@ -135,6 +138,8 @@ main {
 #offcanvas{
     width: 100%;
 }
+
+.form_text_style
 /* Card 1 */
 .badge {
     .fa-solid {
