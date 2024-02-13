@@ -83,34 +83,36 @@ body {
 .logo {
     width: 40px;
     object-fit: cover;
-
-    @media screen and (min-width: 992px) {
-        display: none;
-    }
 }
 
 .logo_desktop {
     @media screen and (min-width: 992px) {
         display: inline-block;
 
-        &>img {
+        & > img {
             width: 100%;
         }
     }
 }
 
 .navbar form {
-    flex-grow: 1;
+    width: calc(100% - 100px);
 
     &>input {
         background-color: var(--boodash-searchbar);
     }
+
+    @media screen and (min-width: 992px) {
+        width: calc(100% - 276px);
+    }
 }
 
-.nav_item a {
-    color: var(--boodash-dark);
+.nav_item {
+    
+    & > a {
+        color: var(--boodash-dark);
+    }
 }
-
 
 #header {
     height: 70px;
@@ -144,7 +146,7 @@ main {
 
 }
 
-#nav_bg:hover{
+#nav_bg:hover {
     background-color: var(--boodash-dark-50);
 }
 
@@ -166,7 +168,7 @@ a.badge {
 
 /* card 4 */
 
-.card_text{
+.card_text {
     font-size: 0.8rem;
     padding-bottom: 2rem;
 }
