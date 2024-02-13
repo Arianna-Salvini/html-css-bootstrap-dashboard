@@ -77,27 +77,6 @@ body {
     border: 1px dashed;
 }
 
-.debug.side_navbar {
-    height: 100vh;
-}
-
-main.debug {
-    height: 100%;
-    background-color: antiquewhite;
-}
-
-.debug.banner {
-    height: 300px;
-}
-
-.debug.main_site_content .col-12 {
-    height: 100vh;
-}
-
-.debug.card {
-    height: 50%;
-}
-
 /* Header */
 
 .logo {
@@ -140,7 +119,8 @@ main.debug {
 
 main {
     width: calc(100% - 70px);
-    /* height: calc(100% - 70) */
+    height: calc(100% - 70);
+    overflow-y: auto;
 }
 
 #wrapper {
@@ -179,4 +159,3 @@ a.badge {
     border: 1px solid var(--boodash-dark);
 }
 
-/* card 2 */

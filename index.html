@@ -122,7 +122,6 @@
                 </div>
                 <!-- /banner -->
 
-                <!-- offcanvas -->
                 <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasLabel">Inserisci nuovi studenti</h5>
@@ -180,11 +179,12 @@
                         </form>
                     </div>
                 </div>
+                <!-- /offcanvas -->
 
                 <div class="col-12 col-lg-8">
-                    <div class="card classes ">
+                    <div class="card classes m-3">
+                        <h5 class="card-title p-3 pb-0">Prossime Classi</h5>
                         <div class="card-body">
-                            <h5 class="card-title">Prossime Classi</h5>
                             <table class="table table-hover table_style bg_lighter">
                                 <thead>
                                     <tr>
@@ -311,7 +311,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="card p-3">
+                    <div class="card p-3 m-3">
                         <h5 class="card-title">Prossime Classi</h5>
                         <div class="card-body">
                             <div class="accordion" id="faq">
@@ -333,8 +333,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="faq_question">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse2" aria-expanded="true"
-                                            aria-controls="collaps2">
+                                            data-bs-target="#collapse2" aria-expanded="true" aria-controls="collaps2">
                                             Come posso accedere alle informazioni del mio acount?
                                         </button>
                                     </h2>
@@ -348,8 +347,7 @@
                                 <div class="accordion-item bg_general">
                                     <h2 class="accordion-header" id="faq_question">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse3" aria-expanded="true"
-                                            aria-controls="collapse3">
+                                            data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                             Posso usare questa dashboard da mobile?
                                         </button>
                                     </h2>
@@ -366,10 +364,37 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-4 debug">
-                <div class="card todo bg_general"></div>
-                <div class="card active_users bg_general"></div>
+                <!-- classes and faq -->
+                <div class="col-12 col-lg-4">
+                    <div class="card todo bg_general m-3">
+                        <h5 class="card-title p-3 border-bottom">ToDo</h5>
+                        <div class="form-check px-5 py-1 border-bottom">
+                            <input class="form-check-input" type="checkbox" value="true" id="first_check" />
+                            <label class="form-check-label" for="first_check"> Kickoff nuove classi </label>
+                        </div>
+                        <div class="form-check px-5 py-1 border-bottom">                   
+                            <input class="form-check-input" type="checkbox" value="true" id="secon_check" />
+                            <label class="form-check-label" for="second_check"> Lezioni su Bootstrap 5 in classe #75 </label>
+                        </div>
+                        <div class="form-check px-5 py-1 border-bottom">
+                            <input class="form-check-input" type="checkbox" value="true" id="third_check" />
+                            <label class="form-check-label" for="third_check"> Controllare username github studenti </label>
+                        </div>
+                
+                    </div>
+                    <div class="card m-3 p-3">
+                        <img src="./assets/img/stats.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Utenti attivi</h5>
+                          <div class="card-text border-bottom">Lista degli utenti attivi in piattaforma nell'ultimo mese</div>
+                          <div class="mounth py-2 border-bottom"> gennaio: 1200</div>
+                          <div class="mounth py-2 border-bottom"> febbraio: 800</div>
+                          <div class="mounth py-2 border-bottom"> marzo: 1500</div>
+                          <a href="#" class="py-3 border-bottom">Visualizza report approfondito</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- todo and grafic -->
             </div>
     </div>
     </main>
