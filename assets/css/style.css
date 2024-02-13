@@ -142,7 +142,7 @@ main {
 #wrapper {
     height: calc(100% - 70px);
 }
-
+/* sidebar */
 .side_bar {
     height: 100%;
     width: 70px;
@@ -157,24 +157,17 @@ main {
     }
 
 }
-
+/* banner */
 .banner {
     background-color: var(--boodash-primary);
 }
-
+/* Card 1 */
 .badge{
-    border: 1px solid var(--boodash-dark);
-
     .fa-solid{
         color: var(--boodash-dark);
     }
 }
 
-.table_style{
-    text-align: center;
-
-}
-
-.badge{
-    border: none;
+a.badge{
+    border: 1px solid var(--boodash-dark);
 }
