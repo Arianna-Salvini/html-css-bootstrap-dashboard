@@ -14,6 +14,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Utility */
+
 .bg_general{
     background-color: var(--boodash-bg-general);
 }
@@ -38,6 +45,9 @@
     display: none;
 }
 
+
+/* Media query */
+
 @media screen and (min-width: 992px){
  
     .side_navbar_option{
@@ -55,7 +65,7 @@
     height: 100vh;
 }
 
-.debug.main_site_content{
+main.debug{
     height: 100%;
     background-color: antiquewhite;
 }
@@ -78,19 +88,35 @@ height: 100vh;
 }
 
 .navbar form{
-    flex-grow: 3;
+    flex-grow: 1;
 
     & > input{
         background-color: var(--boodash-searchbar);
     }
 }
- .fa-bell{
-    color: var(--boodash-bell);
+
+.nav_item a{
+    color: var(--boodash-dark);
+}
+ 
+
+ #header{
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
  }
 
+main{
+    width: calc(100% - 70px);
+    height: calc(100% - 70)
+}
+.wrapper{
+    height: calc(100% - 70px);
+}
 
-.side_navbar{
+.side_bar{
     height: 100%;
+    width: 70px;
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--boodash-darker);
     justify-content: space-between;
