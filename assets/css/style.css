@@ -41,6 +41,10 @@ body {
     color: var(--boodash-dark);
 }
 
+.color_lighter {
+    color: var(--boodash-lighter);
+}
+
 .hidden {
     display: none;
 }

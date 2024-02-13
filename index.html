@@ -102,6 +102,85 @@
 
         <main>
             <div class="row">
+                <div class="col-12">
+                    <div class="banner d-flex-md color_lighter">
+                        <div class="boolean_plan p-3">
+                            <h3>Boolean</h3>
+                        </div>
+                        <div class="online_studentsp-3">
+                            Studenti online negli ultimi 30 minuti
+                            <h3>125</h3>
+                        </div>
+                        <div class="add_new_student p-3">
+                            Nuovo studente
+                            <button class="btn  btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                                <i class="fa fa-plus color_lighter" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /banner -->
+
+                <!-- offcanvas -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasLabel">Inserisci nuovi studenti</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body offcanvas-start">
+                        <form class="offcanvas-start" method="get">
+                            <div class="col-12">
+                                <label for="name" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="name">
+                                <!-- /Name -->
+                                <label for="surname" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="surname">
+                                <!-- /Surame -->
+                            </div>
+                            <div class="col-12">
+                                <span class="InputEmail1" id="basic-addon1">@</span>
+                                <label for="InputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail1">
+                                <!-- /Email -->
+                                
+                                <label for="InputPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="InputPassword">
+                                <!-- /Password -->
+                            </div>
+                            <div class="col-12">
+                                <label for="city" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="city">
+                                <!-- City -->
+                                <label for="country" class="form-label">Stato</label>
+                                <select class="form-select" id="country" aria-label="Default select example">
+                                    <option selected>Scegli...</option>
+                                    <option value="1">Italia</option>
+                                    <option value="2">England</option>
+                                    <option value="3">España</option>
+                                </select>
+                                <!-- /Country selection -->
+                                <label for="cap" class="form-label">CAP</label>
+                                <input type="number" class="form-control" id="cap">
+                                <!-- CAP -->
+                            </div>
+                            <div class="col-12">
+                                <label for="photo" class="form-label">Foto</label>
+                                <input class="form-control" type="file" id="photo">
+                            </div>
+                            <!-- Upload photos -->
+                            <div class="col-12 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Seleziona per
+                                    proseguire</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Salva</button>
+                            <button type="reset" class="btn btn-warning">Svuota</button>
+                            <!-- /Button -->
+                        </form>
+                    </div>
+                </div>
+
                 <div class="col-12 col-lg-8 debug">
                     <div class="card classes">
                         <div class="card-body">
