@@ -159,3 +159,9 @@ a.badge {
     border: 1px solid var(--boodash-dark);
 }
 
+/* card 4 */
+
+.card_text{
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
