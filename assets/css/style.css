@@ -50,11 +50,11 @@ body {
     display: none;
 }
 
-.w_35{
+.w_35 {
     width: 35%;
 }
 
-.w_15{
+.w_15 {
     width: 15%;
 }
 
@@ -69,7 +69,7 @@ body {
     @media screen and (min-width: 992px) {
         display: inline-block;
 
-        & > img {
+        &>img {
             width: 100%;
         }
     }
@@ -88,8 +88,8 @@ body {
 }
 
 .nav_item {
-    
-    & > a {
+
+    &>a {
         color: var(--boodash-dark);
     }
 }
@@ -126,7 +126,10 @@ main {
 
 }
 
-#nav_bg:hover {
+#nav_bg:hover,
+#nav_bg1:hover,
+#nav_bg2:hover,
+#nav_bg3:hover {
     background-color: var(--boodash-dark-50);
 }
 
@@ -135,14 +138,14 @@ main {
     background-color: var(--boodash-primary);
 }
 
-#offcanvas{
+#offcanvas {
     width: 100%;
 }
 
 /* Card 1 */
-i.fa-solid {
-        color: var(--boodash-dark);
-    }
+td .fa-solid {
+    color: var(--boodash-dark);
+}
 
 a.badge {
     border: 1px solid var(--boodash-dark);
@@ -174,7 +177,8 @@ a.badge {
             width: 150px;
         }
     }
-    #offcanvas{
+
+    #offcanvas {
         width: 50%;
     }
 }
