@@ -146,6 +146,7 @@ main {
 #wrapper {
     height: calc(100% - 70px);
 }
+
 /* sidebar */
 .side_bar {
     height: 100%;
@@ -161,17 +162,19 @@ main {
     }
 
 }
+
 /* banner */
 .banner {
     background-color: var(--boodash-primary);
 }
+
 /* Card 1 */
-.badge{
-    .fa-solid{
+.badge {
+    .fa-solid {
         color: var(--boodash-dark);
     }
 }
 
-a.badge{
+a.badge {
     border: 1px solid var(--boodash-dark);
 }
