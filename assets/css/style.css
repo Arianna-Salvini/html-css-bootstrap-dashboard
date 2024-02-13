@@ -139,13 +139,10 @@ main {
     width: 100%;
 }
 
-.form_text_style
 /* Card 1 */
-.badge {
-    .fa-solid {
+i.fa-solid {
         color: var(--boodash-dark);
     }
-}
 
 a.badge {
     border: 1px solid var(--boodash-dark);
